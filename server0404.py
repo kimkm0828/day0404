@@ -1,6 +1,8 @@
 from flask import Flask,render_template,request
 import myutil
 
+
+
 app = Flask(__name__)
 
 @app.route('/student.do',methods=['GET','POST'])
